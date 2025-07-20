@@ -129,6 +129,11 @@ const Product: React.FC = () => {
           </Box>
 
           {/* Play/Pause Button */}
+{/*           <Box sx={{position: 'relative'}}>
+            <IconButton onClick={togglePlayPause} sx={{position: 'absolute', right: '50px', bottom: '5px',border: '3px solid #fff', color: "#fff", width: "60px", height: "60px", "&:hover": { backgroundColor: "#000" }, borderRadius: "50%", display: {xs: 'none', md: 'flex'}}}>
+              {isPlaying ? <PauseCircleOutlineIcon fontSize="large" /> : <PlayCircleOutlineIcon fontSize="large" />}
+            </IconButton>
+          </Box> */}
           <Box sx={{position: 'relative'}}>
             <IconButton onClick={togglePlayPause} sx={{position: 'absolute', right: '50px', bottom: '5px',border: '3px solid #fff', color: "#fff", width: "60px", height: "60px", "&:hover": { backgroundColor: "#000" }, borderRadius: "50%", display: {xs: 'none', md: 'flex'}}}>
               {isPlaying ? <PauseCircleOutlineIcon fontSize="large" /> : <PlayCircleOutlineIcon fontSize="large" />}
